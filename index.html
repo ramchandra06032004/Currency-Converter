@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css?family=Playfair Display" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div class="square">
+        <h2 class="header center">
+            Currency Converter 
+         </h2>
+    
+         <div class="fromContainer">
+            <div class="enter">
+                Enter Ammount
+            </div>
+             <input type="text" class="fromm center" value="1">
+         </div>
+         
+        <div class="heroContainer">
+            <div class="from selects center">
+                <p>From</p>
+                <div class="selectDiv center pointer">
+                    <img src="https://flagsapi.com/US/flat/64.png" class="img">
+                    <select from name="from">
+                        
+                    </select>
+                </div>
+            </div>
+        
+            <i class="fa-solid fa-right-left" id="exchangeIcon"></i>
+        
+            <div class="to selects center">
+                <p>TO</p>
+                <div class="selectDiv center ">
+                    <img src="https://flagsapi.com/IN/flat/64.png" class="img pointer">
+                    <select name="to">
+                        
+                    </select>
+                </div>
+            </div>
+        </div>
+    
+         <div class="msg">
+            
+         </div>
+         <div class="submit center pointer">
+            <button class="submitButton pointer">Get Exchange Rate</button>
+         </div>
+    </div>
+    <script src="codes.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>
